@@ -1,6 +1,5 @@
 package com.meli.store.v1.listener;
 
-import com.meli.shared.events.InventoryUpdatedEvent;
 import com.meli.store.v1.storeinventory.StoreInventoryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

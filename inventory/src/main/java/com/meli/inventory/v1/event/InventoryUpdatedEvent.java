@@ -1,4 +1,4 @@
-package com.meli.shared.events;
+package com.meli.inventory.v1.event;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

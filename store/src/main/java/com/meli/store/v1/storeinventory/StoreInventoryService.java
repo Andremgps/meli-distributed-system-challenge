@@ -1,7 +1,5 @@
 package com.meli.store.v1.storeinventory;
 
-import com.meli.shared.events.InventoryUpdatedEvent;
-import com.meli.shared.events.ProductUpdatedEvent;
 import com.meli.store.exception.StoreNotFoundException;
 import com.meli.store.model.Product;
 import com.meli.store.model.Store;
@@ -9,6 +7,8 @@ import com.meli.store.model.StoreInventory;
 import com.meli.store.repository.ProductRepository;
 import com.meli.store.repository.StoreInventoryRepository;
 import com.meli.store.repository.StoreRepository;
+import com.meli.store.v1.listener.InventoryUpdatedEvent;
+import com.meli.store.v1.listener.ProductUpdatedEvent;
 import com.meli.store.v1.storeinventory.dto.StoreInventoryResponseDTO;
 import org.springframework.stereotype.Service;
 

@@ -2,10 +2,12 @@ package com.meli.inventory.v1.inventory.dto;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class StockUpdateRequestDTO {
 
     @NotNull(message = "Store ID is required")

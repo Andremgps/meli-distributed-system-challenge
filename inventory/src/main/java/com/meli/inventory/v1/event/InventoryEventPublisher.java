@@ -1,6 +1,5 @@
 package com.meli.inventory.v1.event;
 
-import com.meli.shared.events.InventoryUpdatedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
