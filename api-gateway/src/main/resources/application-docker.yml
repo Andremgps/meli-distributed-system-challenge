@@ -1,0 +1,8 @@
+services:
+  inventory-base-url: http://inventory:8081
+  store-base-url: http://store:8082
+
+logging:
+  level:
+    com.inventory: INFO
+    root: WARN

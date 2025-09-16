@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    show-sql: false
+  h2:
+    console:
+      settings:
+        web-allow-others: true
+  rabbitmq:
+    host: rabbitmq
+
+logging:
+  level:
+    com.inventory: INFO
+    root: WARN
