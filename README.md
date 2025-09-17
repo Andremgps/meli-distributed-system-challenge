@@ -4,6 +4,9 @@
 ## Microservices Design
 ![](images/architecture-diagram.png)
 
+
+YouTube link explaining the architecture and applications: https://www.youtube.com/watch?v=20LGYqxUxxA
+
 ### 1. API Gateway Service (Port: 8080)
 
 **Purpose**: Single entry point for all client requests
@@ -43,6 +46,8 @@
 * RabbitMQ: robust message broker for asynchronous communication, ok for this prototype. But for production, Kafka would be better.
 * Docker: containerization for consistent deployment environments.
 * H2 Database: in-memory database for simplicity in this prototype. For production, PostgreSQL or MySQL would be better.
+* Generative AI (Claude): assisted in documentation, design patterns, best practices, and code snippets.
+* Github Copilot: assisted in code generation and boilerplate reduction.
 
 ## Api Design Patterns
 
@@ -97,3 +102,4 @@ Get store inventory by product and store:
 * Implement monitoring and logging (e.g., ELK stack, Prometheus, Grafana).
 * Clustered deployment for scalability and resilience.
 * CI/CD pipeline setup for automated testing and deployment.
+* Use of uuid for entity IDs instead of Long for better uniqueness across distributed systems.
