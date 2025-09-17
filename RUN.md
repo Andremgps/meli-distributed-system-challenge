@@ -1,6 +1,6 @@
 # Run Guide
 
-## Easu Way
+## Easy Way
 
 You just need docker and docker-compose installed on your machine.
 
